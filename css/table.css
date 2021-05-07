@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 0.5rem;
+}
+
+.table h3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+table tr.alt {
+  background-color: #ced6e0;
+}
+
+.table {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.5rem;
+}

@@ -1,0 +1,70 @@
+.content {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 100px);
+  color: #2f3542;
+}
+
+/* Left Side */
+.content-left {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #a4b0be;
+}
+
+.content-left h2 {
+  margin-top: 1.3rem;
+  margin-bottom: 0.25rem;
+  margin-left: 0.75rem;
+}
+.content-left h3 {
+  margin-bottom: 1.2rem;
+  margin-left: 0.75rem;
+}
+.content-left p,
+.content-left i {
+  margin-right: 0.35rem;
+  margin-left: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.content-left a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Right Side */
+.content-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-right h2 {
+  padding-top: 0.3rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.75rem;
+}
+
+.content-right p {
+  padding-left: 0.75rem;
+  padding-right: 0.3rem;
+}
+
+.content-card {
+  width: 65%;
+  height: 78%;
+  background: linear-gradient(to right top, #747d8c, #a4b0be);
+  color: #2f3542;
+}
+
+.shadow {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.content-right2 {
+  flex: 1;
+  font-size: 1.25rem;
+}
